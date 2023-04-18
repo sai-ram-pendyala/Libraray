@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heading {
+    background-color: #393646;
+    height: 100px;
+    color: #f4eee0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    align-self: center;
+}
+
+.btn {
+    color: #393646;
+    background-color: #f4eee0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.cards {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    font-size: 18px;
+    color: #fff;
+    background-color: #6d5d6e;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #393646;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 180px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#statusDiv {
+    display: flex;
+    align-items: center;
+}
+
+#checkbox {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
